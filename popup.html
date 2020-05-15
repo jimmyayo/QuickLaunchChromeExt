@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <script src="https://use.fontawesome.com/7ff8eb2e23.js"></script> -->
+   <title>Jimmy Launcher</title>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <style>
+      html, body {
+         font-family: 'Open Sans', sans-serif;
+         font-size: 14px;
+         margin: 0;
+         min-height: 180px;
+         padding: 0;
+         width: 384px;
+      }
+      h1 {
+         font-family: 'Menlo', monospace;
+         font-size: 22px;
+         font-weight: 400;
+         margin: 0;
+         color: #2f5762;
+
+      }
+      a:link,:visited {
+         color: #000;
+         outline: 0;
+         text-decoration: none;
+      }
+      img {
+         width:30px;
+      }
+      .modal-header {
+         align-items: center;
+         border-bottom: .5px solid #dadada;
+      }
+      .modal-content {
+         padding: 0 22px;
+      }
+      .modal-icons {
+         align-items: center;
+         border-top: .5px solid #dadada;
+         height: 50px;
+         width: 100%;
+         padding: 10px;
+      }
+      .logo {
+         padding: 16px;
+
+      }
+      .logo-icon {
+         vertical-align: text-bottom;
+         margin-right: 12px;
+      }
+      .version {
+         color: #444;
+         font-size: 18px;
+      };
+      .flex-container {
+         display: inline;
+         justify-content: space-between!important;
+         padding: 10px 22px;
+      }
+      .flex {
+         display: inline;
+         opacity: 1;
+         transition: opacity 0.2s ease-in-out;
+         /* width: 120px; */
+         padding: 10px;
+      }
+      .flex:hover {
+         opacity: .4;
+      }
+      .flex .fa {
+         font-size: 40px;
+         color: #2f5762;
+      }
+
+   </style>
+</head>
+<body>
+   <div class="modal-header">
+      <h1 class="logo">
+         <img src="images/icon_128.png" alt="logo" class="logo-icon">
+         Jimmy's Quick Launch <span class="version">(1.0.0)</span>
+      </h1>
+   </div>
+
+   <div class="modal-content">
+      <p>Quickly access my favorite sites</p>
+   </div>
+
+   <div class="modal-icons">
+      <div class="flex-container">
+         <div class="flex">
+            <a href="http://www.reddit.com" target="_blank">
+               <i class="fa fa-reddit-alien"></i>
+            </a>
+         </div>
+         <div class="flex">
+            <a href="http://www.YouTube.com" target="_blank">
+               <i class="fa fa-youtube"></i>
+            </a>
+         </div>
+         <div class="flex">
+            <a href="http://www.Twitter.com" target="_blank">
+               <i class="fa fa-twitter"></i>
+            </a>
+         </div>
+         <div class="flex">
+            <a href="http://www.Facebook.com" target="_blank">
+               <i class="fa fa-facebook"></i>
+            </a>
+         </div>
+         <div class="flex">
+            <a href="http://www.Github.com/jimmyayo" target="_blank">
+               <i class="fa fa-github"></i>
+            </a>
+         </div>
+         <div class="flex">
+            <a href="http://www.castbox.fm/" target="_blank">
+               <i class="fa fa-podcast"></i>
+            </a>
+         </div>
+         
+      </div>
+   </div>
+</body>
+</html>
